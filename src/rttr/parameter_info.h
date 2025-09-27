@@ -87,7 +87,7 @@ namespace detail
  *   std::vector<parameter_info> param_list = meth.get_parameter_infos();
  *   for (const auto& info : param_list)
  *   {
- *       // print all names of the parameter types and its position in the paramter list
+ *       // print all names of the parameter types and its position in the parameter list
  *       std::cout << " name: '" << info.get_type().get_name() << "'\n"
  *                 << "index: " << info.get_index()
  *                              << std::endl;
